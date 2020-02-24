@@ -1,0 +1,35 @@
+div {
+display: inline-block;
+font-size: 2rem;
+background-color: azure;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    height: 50px;
+    width: 100vw;
+    z index: 1000;
+}
+  .main {
+    background-color: blue;
+    width: 600px;
+    margin: 50px auto;
+    height: 2650px;
+    overflow: hidden;
+}
+.relative1 {
+    background-color: green;
+   position: relative;
+   width: 300px;
+    height: 50px;
+}
+.relative2 {
+    position: absolute;
+    background-color: lightblue;
+    width: 200px;
+    height: 50px;
+}
+
